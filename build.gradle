@@ -1,0 +1,15 @@
+plugins {
+	id 'application'
+	id 'java'
+	id 'eclipse'
+}
+
+//mainClassName = 'za.ac.sun.cs.coastal.COASTAL'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+}
